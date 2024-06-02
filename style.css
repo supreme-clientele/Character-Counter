@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3AB0FF;
+}
+
+.container {
+    background-color: #F4A460;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: none;
+    overflow-wrap: break-word;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.total-number-color {
+    color: #ee82ee;
+}
+
+.left-number-color {
+    color: #ff2828;
+}
